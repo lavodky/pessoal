@@ -1,0 +1,150 @@
+/*
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --ifm-color-primary: #40e0d0;
+  --ifm-color-primary-dark: #27dcca;
+  --ifm-color-primary-darker: #22d3c1;
+  --ifm-color-primary-darkest: #1cad9f;
+  --ifm-color-primary-light: #59e4d6;
+  --ifm-color-primary-lighter: #65e6d9;
+  --ifm-color-primary-lightest: #8aece2;
+
+  --ifm-code-font-size: 90%;
+}
+@font-face {
+  font-family: "VoiceInMyHead";
+  src: url("../../static/VoiceInMyHead.ttf") format("embedded-opentype"),
+    /* Internet Explorer */ url("../../static/VoiceInMyHead.ttf")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../../static/VoiceInMyHead.ttf")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("../../static/VoiceInMyHead.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../../static../../static/VoiceInMyHead.ttf")
+      format("svg"); /* Legacy iOS */
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+p {
+  font-family: "Roboto", "Open Sans", sans-serif !important;
+}
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+.cyan-text {
+  color: #40e0d0;
+  font-family: VoiceInMyHead;
+  letter-spacing: 3px;
+}
+.text-center {
+  text-align: center;
+}
+.divider_N4ky {
+  border-top: 0.01rem solid;
+  margin: 2% auto;
+  width: 25%;
+}
+.divider_N4ky:before {
+  content: "";
+  display: block;
+  letter-spacing: 0;
+  line-height: 0;
+  text-indent: 0;
+}
+#mein-picker {
+  /* image 1 */
+
+  position: absolute;
+  width: 181px;
+  height: 179px;
+
+  border-radius: 128px;
+}
+.github-icon:hover {
+  opacity: 0.6;
+}
+.background {
+  background-color: #57f287;
+}
+.hr-main {
+  height: 2px;
+  border-width: 0;
+  color: black;
+  background-color: black;
+}
+.m-avatar {
+  height: 15%;
+  width: 15%;
+}
+.github-icon:before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: flex;
+  background: url("github.svg") no-repeat;
+}
+.discord-icon:hover {
+  opacity: 0.6;
+}
+
+.discord-icon:before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: flex;
+  background: url("discord.svg") no-repeat;
+}
+.twitter-icon:hover {
+  opacity: 0.6;
+}
+
+.twitter-icon:before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: flex;
+  background: url("twitter.svg") no-repeat;
+}
+.sec {
+  background-color: #40e0d0;
+}
+.button {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-right: 3px;
+  margin-left: 3px;
+  background-color: #40e0d0;
+  margin-top: 3px;
+}
+.button:hover {
+  opacity: 0.5;
+}
+p {
+  font-family: Roboto;
+}
+html[data-theme="dark"] .discord-icon:before {
+  background: url("discord.svg") no-repeat;
+}
+
+html[data-theme="dark"] .github-icon:before {
+  background: url("github.svg") no-repeat;
+}
+html[data-theme="dark"] .twitter-icon:before {
+  background: url("twitter.svg") no-repeat;
+}
+
+html[data-theme="dark"] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
